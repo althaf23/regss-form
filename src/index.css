@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0; /* Light Gray Background */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Add your own styles below this line */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333; /* Dark Gray Heading Text */
+}
+
+p {
+  color: #555555; /* Gray Paragraph Text */
+  line-height: 1.5;
+}
+
+a {
+  color: #007bff; /* Blue Link Text */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3; /* Darker Blue on Hover */
+}
+
+/* Add more styles as needed */
